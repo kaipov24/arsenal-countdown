@@ -35,6 +35,7 @@ export function getVisitorTimeZoneName(): string {
 export function formatUtcKickoffInLocalTime(kickoffUtc: string): string {
   return new Intl.DateTimeFormat(undefined, {
     dateStyle: "full",
+    hour12: false,
     timeStyle: "short",
   }).format(new Date(kickoffUtc));
 }

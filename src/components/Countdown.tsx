@@ -65,19 +65,20 @@ export function Countdown({ kickoffUtc }: CountdownProps) {
 
   return (
     <div
-      className="grid grid-cols-2 gap-3 sm:grid-cols-4"
+      className="grid grid-cols-2 gap-3 md:grid-cols-4"
       aria-label="Time remaining until kickoff"
       aria-live="polite"
     >
       {units.map((unit) => (
         <div
-          className="rounded-lg border border-white/10 bg-white/8 p-4 text-center shadow-sm"
+          className="flex min-h-24 flex-col items-center justify-center rounded-lg border border-white/10 bg-white/8 p-4 text-center shadow-sm sm:min-h-28"
           key={unit.label}
+          aria-label={`${unit.value} ${unit.label.toLowerCase()} remaining`}
         >
-          <div className="text-3xl font-bold tabular-nums text-white">
+          <div className="text-3xl font-bold tabular-nums text-white sm:text-4xl">
             {unit.value.toString().padStart(2, "0")}
           </div>
-          <div className="mt-1 text-xs font-medium uppercase tracking-wide text-slate-300">
+          <div className="mt-2 text-xs font-semibold uppercase tracking-wide text-slate-300">
             {unit.label}
           </div>
         </div>

@@ -5,12 +5,6 @@ type FixtureListProps = {
   fixtures: Fixture[];
 };
 
-function getOpponent(fixture: Fixture): string {
-  return fixture.homeTeam.id === "arsenal"
-    ? fixture.awayTeam.shortName
-    : fixture.homeTeam.shortName;
-}
-
 function getHomeAwayStatus(fixture: Fixture): string {
   if (fixture.homeTeam.id === "arsenal") {
     return "Home";
@@ -33,16 +27,16 @@ export function FixtureList({ fixtures }: FixtureListProps) {
   }
 
   return (
-    <ul className="grid gap-3 md:grid-cols-2">
+    <ul className="grid gap-4 md:grid-cols-2">
       {fixtures.map((fixture) => (
         <li
-          className="rounded-lg border border-white/10 bg-white/8 p-4 text-slate-100"
+          className="rounded-lg border border-white/10 bg-white/8 p-5 text-slate-100"
           key={fixture.id}
         >
           <div className="flex items-start justify-between gap-4">
             <div>
               <p className="text-lg font-semibold">
-                Arsenal vs {getOpponent(fixture)}
+                {fixture.homeTeam.shortName} vs {fixture.awayTeam.shortName}
               </p>
               <p className="mt-1 text-sm text-slate-300">
                 {fixture.competition.name}

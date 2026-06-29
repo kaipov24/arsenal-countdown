@@ -1,7 +1,7 @@
 [
   {
-    "id": "fixture-2037-01",
-    "kickoffUtc": "2037-08-15T16:30:00Z",
+    "id": "fixture-2026-01",
+    "kickoffUtc": "2026-07-03T18:30:00Z",
     "status": "SCHEDULED",
     "competition": {
       "id": "premier-league",
@@ -20,8 +20,8 @@
     "venue": "North Bank Community Stadium"
   },
   {
-    "id": "fixture-2037-02",
-    "kickoffUtc": "2037-08-22T19:00:00Z",
+    "id": "fixture-2026-02",
+    "kickoffUtc": "2026-07-10T19:00:00Z",
     "status": "TIMED",
     "competition": {
       "id": "champions-league",
@@ -40,8 +40,8 @@
     "venue": "Harbor Lights Arena"
   },
   {
-    "id": "fixture-2037-03",
-    "kickoffUtc": "2037-09-04T14:00:00Z",
+    "id": "fixture-2026-03",
+    "kickoffUtc": "2026-07-17T14:00:00Z",
     "status": "SCHEDULED",
     "competition": {
       "id": "league-cup",
@@ -60,9 +60,9 @@
     "venue": "Clock End Park"
   },
   {
-    "id": "fixture-2037-04",
-    "kickoffUtc": "2037-09-18T12:30:00Z",
-    "status": "POSTPONED",
+    "id": "fixture-2026-04",
+    "kickoffUtc": "2026-07-24T12:30:00Z",
+    "status": "SCHEDULED",
     "competition": {
       "id": "premier-league",
       "name": "Premier League"
@@ -80,8 +80,8 @@
     "venue": "Pier Road Ground"
   },
   {
-    "id": "fixture-2037-05",
-    "kickoffUtc": "2037-10-02T17:45:00Z",
+    "id": "fixture-2026-05",
+    "kickoffUtc": "2026-07-31T17:45:00Z",
     "status": "SCHEDULED",
     "competition": {
       "id": "fa-cup",
@@ -100,8 +100,8 @@
     "venue": "Civic Bowl"
   },
   {
-    "id": "fixture-2037-06",
-    "kickoffUtc": "2037-10-16T15:00:00Z",
+    "id": "fixture-2026-06",
+    "kickoffUtc": "2026-08-07T15:00:00Z",
     "status": "TIMED",
     "competition": {
       "id": "premier-league",
