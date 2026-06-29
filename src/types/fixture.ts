@@ -20,3 +20,9 @@ export type Fixture = {
   };
   venue?: string;
 };
+
+export type FixtureData = {
+  provider: string;
+  updatedAt: string;
+  fixtures: Fixture[];
+};

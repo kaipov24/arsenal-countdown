@@ -1,4 +1,5 @@
 import { formatUtcKickoffInLocalTime } from "@/lib/dates";
+import { isArsenalTeam, isNeutralFixture } from "@/lib/teams";
 import type { Fixture } from "@/types/fixture";
 
 type FixtureListProps = {
@@ -6,11 +7,15 @@ type FixtureListProps = {
 };
 
 function getHomeAwayStatus(fixture: Fixture): string {
-  if (fixture.homeTeam.id === "arsenal") {
+  if (isNeutralFixture(fixture)) {
+    return "Neutral";
+  }
+
+  if (isArsenalTeam(fixture.homeTeam)) {
     return "Home";
   }
 
-  if (fixture.awayTeam.id === "arsenal") {
+  if (isArsenalTeam(fixture.awayTeam)) {
     return "Away";
   }
 

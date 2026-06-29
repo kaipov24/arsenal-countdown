@@ -1,122 +1,889 @@
-[
-  {
-    "id": "fixture-2026-01",
-    "kickoffUtc": "2026-07-03T18:30:00Z",
-    "status": "SCHEDULED",
-    "competition": {
-      "id": "premier-league",
-      "name": "Premier League"
+{
+  "provider": "football-data.org",
+  "updatedAt": "2026-06-29T10:33:30.939Z",
+  "fixtures": [
+     {
+      "id": "arsenal-friendly-2026-08-01-girona",
+      "kickoffUtc": "2026-08-01T18:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "friendly",
+        "name": "Friendly Match"
+      },
+      "homeTeam": {
+        "id": "girona",
+        "name": "Girona FC",
+        "shortName": "Girona"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "venue": "Estadi Municipal de Montilivi"
     },
-    "homeTeam": {
-      "id": "arsenal",
-      "name": "Arsenal",
-      "shortName": "Arsenal"
+    {
+      "id": "arsenal-friendly-2026-08-05-real-betis",
+      "kickoffUtc": "2026-08-05T18:30:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "friendly",
+        "name": "Friendly Match"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "real-betis",
+        "name": "Real Betis",
+        "shortName": "Real Betis"
+      },
+      "venue": "Aviva Stadium"
     },
-    "awayTeam": {
-      "id": "north-london-rovers",
-      "name": "North London Rovers",
-      "shortName": "Rovers"
+    {
+      "id": "arsenal-emirates-cup-2026-08-09-borussia-dortmund",
+      "kickoffUtc": "2026-08-09T13:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "emirates-cup",
+        "name": "Emirates Cup"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "borussia-dortmund",
+        "name": "Borussia Dortmund",
+        "shortName": "Dortmund"
+      },
+      "venue": "Emirates Stadium"
     },
-    "venue": "North Bank Community Stadium"
-  },
-  {
-    "id": "fixture-2026-02",
-    "kickoffUtc": "2026-07-10T19:00:00Z",
-    "status": "TIMED",
-    "competition": {
-      "id": "champions-league",
-      "name": "Champions League"
+    {
+      "id": "arsenal-community-shield-2026-08-16-manchester-city",
+      "kickoffUtc": "2026-08-16T14:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "community-shield",
+        "name": "FA Community Shield"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "65",
+        "name": "Manchester City FC",
+        "shortName": "Manchester City",
+        "crestUrl": "https://crests.football-data.org/65.png"
+      },
+      "venue": "Principality Stadium"
     },
-    "homeTeam": {
-      "id": "harbor-city",
-      "name": "Harbor City",
-      "shortName": "Harbor"
+    {
+      "id": "560542",
+      "kickoffUtc": "2026-08-21T19:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "1076",
+        "name": "Coventry City FC",
+        "shortName": "Coventry City",
+        "crestUrl": "https://crests.football-data.org/1076.png"
+      }
     },
-    "awayTeam": {
-      "id": "arsenal",
-      "name": "Arsenal",
-      "shortName": "Arsenal"
+    {
+      "id": "560557",
+      "kickoffUtc": "2026-08-29T14:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "58",
+        "name": "Aston Villa FC",
+        "shortName": "Aston Villa",
+        "crestUrl": "https://crests.football-data.org/58.png"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      }
     },
-    "venue": "Harbor Lights Arena"
-  },
-  {
-    "id": "fixture-2026-03",
-    "kickoffUtc": "2026-07-17T14:00:00Z",
-    "status": "SCHEDULED",
-    "competition": {
-      "id": "league-cup",
-      "name": "League Cup"
+    {
+      "id": "560570",
+      "kickoffUtc": "2026-09-05T14:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "61",
+        "name": "Chelsea FC",
+        "shortName": "Chelsea",
+        "crestUrl": "https://crests.football-data.org/61.png"
+      }
     },
-    "homeTeam": {
-      "id": "arsenal",
-      "name": "Arsenal",
-      "shortName": "Arsenal"
+    {
+      "id": "560577",
+      "kickoffUtc": "2026-09-12T14:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "71",
+        "name": "Sunderland AFC",
+        "shortName": "Sunderland",
+        "crestUrl": "https://crests.football-data.org/71.png"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      }
     },
-    "awayTeam": {
-      "id": "midlands-athletic",
-      "name": "Midlands Athletic",
-      "shortName": "Midlands"
+    {
+      "id": "560586",
+      "kickoffUtc": "2026-09-19T14:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "397",
+        "name": "Brighton & Hove Albion FC",
+        "shortName": "Brighton Hove",
+        "crestUrl": "https://crests.football-data.org/397.png"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      }
     },
-    "venue": "Clock End Park"
-  },
-  {
-    "id": "fixture-2026-04",
-    "kickoffUtc": "2026-07-24T12:30:00Z",
-    "status": "SCHEDULED",
-    "competition": {
-      "id": "premier-league",
-      "name": "Premier League"
+    {
+      "id": "560593",
+      "kickoffUtc": "2026-10-10T14:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "341",
+        "name": "Leeds United FC",
+        "shortName": "Leeds United",
+        "crestUrl": "https://crests.football-data.org/341.png"
+      }
     },
-    "homeTeam": {
-      "id": "seaside-united",
-      "name": "Seaside United",
-      "shortName": "Seaside"
+    {
+      "id": "560608",
+      "kickoffUtc": "2026-10-17T14:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "351",
+        "name": "Nottingham Forest FC",
+        "shortName": "Nottingham",
+        "crestUrl": "https://crests.football-data.org/351.png"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      }
     },
-    "awayTeam": {
-      "id": "arsenal",
-      "name": "Arsenal",
-      "shortName": "Arsenal"
+    {
+      "id": "560616",
+      "kickoffUtc": "2026-10-24T14:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "62",
+        "name": "Everton FC",
+        "shortName": "Everton",
+        "crestUrl": "https://crests.football-data.org/62.png"
+      }
     },
-    "venue": "Pier Road Ground"
-  },
-  {
-    "id": "fixture-2026-05",
-    "kickoffUtc": "2026-07-31T17:45:00Z",
-    "status": "SCHEDULED",
-    "competition": {
-      "id": "fa-cup",
-      "name": "FA Cup"
+    {
+      "id": "560631",
+      "kickoffUtc": "2026-10-31T15:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "64",
+        "name": "Liverpool FC",
+        "shortName": "Liverpool",
+        "crestUrl": "https://crests.football-data.org/64.png"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      }
     },
-    "homeTeam": {
-      "id": "capital-wanderers",
-      "name": "Capital Wanderers",
-      "shortName": "Wanderers"
+    {
+      "id": "560640",
+      "kickoffUtc": "2026-11-07T15:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "322",
+        "name": "Hull City AFC",
+        "shortName": "Hull City",
+        "crestUrl": "https://crests.football-data.org/322.png"
+      }
     },
-    "awayTeam": {
-      "id": "arsenal",
-      "name": "Arsenal",
-      "shortName": "Arsenal"
+    {
+      "id": "560651",
+      "kickoffUtc": "2026-11-21T15:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "67",
+        "name": "Newcastle United FC",
+        "shortName": "Newcastle",
+        "crestUrl": "https://crests.football-data.org/67.png"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      }
     },
-    "venue": "Civic Bowl"
-  },
-  {
-    "id": "fixture-2026-06",
-    "kickoffUtc": "2026-08-07T15:00:00Z",
-    "status": "TIMED",
-    "competition": {
-      "id": "premier-league",
-      "name": "Premier League"
+    {
+      "id": "560654",
+      "kickoffUtc": "2026-11-28T15:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "65",
+        "name": "Manchester City FC",
+        "shortName": "Man City",
+        "crestUrl": "https://crests.football-data.org/65.png"
+      }
     },
-    "homeTeam": {
-      "id": "arsenal",
-      "name": "Arsenal",
-      "shortName": "Arsenal"
+    {
+      "id": "560667",
+      "kickoffUtc": "2026-12-02T20:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "402",
+        "name": "Brentford FC",
+        "shortName": "Brentford",
+        "crestUrl": "https://crests.football-data.org/402.png"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      }
     },
-    "awayTeam": {
-      "id": "riverside-town",
-      "name": "Riverside Town",
-      "shortName": "Riverside"
+    {
+      "id": "560672",
+      "kickoffUtc": "2026-12-05T15:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "73",
+        "name": "Tottenham Hotspur FC",
+        "shortName": "Tottenham",
+        "crestUrl": "https://crests.football-data.org/73.png"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      }
     },
-    "venue": "North Bank Community Stadium"
-  }
-]
+    {
+      "id": "560688",
+      "kickoffUtc": "2026-12-12T15:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "1044",
+        "name": "AFC Bournemouth",
+        "shortName": "Bournemouth",
+        "crestUrl": "https://crests.football-data.org/bournemouth.png"
+      }
+    },
+    {
+      "id": "560699",
+      "kickoffUtc": "2026-12-19T15:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "66",
+        "name": "Manchester United FC",
+        "shortName": "Man United",
+        "crestUrl": "https://crests.football-data.org/66.png"
+      }
+    },
+    {
+      "id": "560704",
+      "kickoffUtc": "2026-12-26T15:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "354",
+        "name": "Crystal Palace FC",
+        "shortName": "Crystal Palace",
+        "crestUrl": "https://crests.football-data.org/354.png"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      }
+    },
+    {
+      "id": "560712",
+      "kickoffUtc": "2026-12-30T20:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "63",
+        "name": "Fulham FC",
+        "shortName": "Fulham",
+        "crestUrl": "https://crests.football-data.org/63.png"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      }
+    },
+    {
+      "id": "560725",
+      "kickoffUtc": "2027-01-02T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "349",
+        "name": "Ipswich Town FC",
+        "shortName": "Ipswich Town",
+        "crestUrl": "https://crests.football-data.org/349.png"
+      }
+    },
+    {
+      "id": "560732",
+      "kickoffUtc": "2027-01-06T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "402",
+        "name": "Brentford FC",
+        "shortName": "Brentford",
+        "crestUrl": "https://crests.football-data.org/402.png"
+      }
+    },
+    {
+      "id": "560750",
+      "kickoffUtc": "2027-01-16T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "322",
+        "name": "Hull City AFC",
+        "shortName": "Hull City",
+        "crestUrl": "https://crests.football-data.org/322.png"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      }
+    },
+    {
+      "id": "560756",
+      "kickoffUtc": "2027-01-23T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "67",
+        "name": "Newcastle United FC",
+        "shortName": "Newcastle",
+        "crestUrl": "https://crests.football-data.org/67.png"
+      }
+    },
+    {
+      "id": "560770",
+      "kickoffUtc": "2027-01-30T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "65",
+        "name": "Manchester City FC",
+        "shortName": "Man City",
+        "crestUrl": "https://crests.football-data.org/65.png"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      }
+    },
+    {
+      "id": "560772",
+      "kickoffUtc": "2027-02-06T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "64",
+        "name": "Liverpool FC",
+        "shortName": "Liverpool",
+        "crestUrl": "https://crests.football-data.org/64.png"
+      }
+    },
+    {
+      "id": "560791",
+      "kickoffUtc": "2027-02-10T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "349",
+        "name": "Ipswich Town FC",
+        "shortName": "Ipswich Town",
+        "crestUrl": "https://crests.football-data.org/349.png"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      }
+    },
+    {
+      "id": "560797",
+      "kickoffUtc": "2027-02-20T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "63",
+        "name": "Fulham FC",
+        "shortName": "Fulham",
+        "crestUrl": "https://crests.football-data.org/63.png"
+      }
+    },
+    {
+      "id": "560803",
+      "kickoffUtc": "2027-02-27T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "66",
+        "name": "Manchester United FC",
+        "shortName": "Man United",
+        "crestUrl": "https://crests.football-data.org/66.png"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      }
+    },
+    {
+      "id": "560815",
+      "kickoffUtc": "2027-03-03T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "354",
+        "name": "Crystal Palace FC",
+        "shortName": "Crystal Palace",
+        "crestUrl": "https://crests.football-data.org/354.png"
+      }
+    },
+    {
+      "id": "560828",
+      "kickoffUtc": "2027-03-13T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "61",
+        "name": "Chelsea FC",
+        "shortName": "Chelsea",
+        "crestUrl": "https://crests.football-data.org/61.png"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      }
+    },
+    {
+      "id": "560836",
+      "kickoffUtc": "2027-03-20T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "71",
+        "name": "Sunderland AFC",
+        "shortName": "Sunderland",
+        "crestUrl": "https://crests.football-data.org/71.png"
+      }
+    },
+    {
+      "id": "560847",
+      "kickoffUtc": "2027-04-10T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "1076",
+        "name": "Coventry City FC",
+        "shortName": "Coventry City",
+        "crestUrl": "https://crests.football-data.org/1076.png"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      }
+    },
+    {
+      "id": "560857",
+      "kickoffUtc": "2027-04-17T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "58",
+        "name": "Aston Villa FC",
+        "shortName": "Aston Villa",
+        "crestUrl": "https://crests.football-data.org/58.png"
+      }
+    },
+    {
+      "id": "560863",
+      "kickoffUtc": "2027-04-24T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "1044",
+        "name": "AFC Bournemouth",
+        "shortName": "Bournemouth",
+        "crestUrl": "https://crests.football-data.org/bournemouth.png"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      }
+    },
+    {
+      "id": "560879",
+      "kickoffUtc": "2027-05-01T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "73",
+        "name": "Tottenham Hotspur FC",
+        "shortName": "Tottenham",
+        "crestUrl": "https://crests.football-data.org/73.png"
+      }
+    },
+    {
+      "id": "560883",
+      "kickoffUtc": "2027-05-08T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "341",
+        "name": "Leeds United FC",
+        "shortName": "Leeds United",
+        "crestUrl": "https://crests.football-data.org/341.png"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      }
+    },
+    {
+      "id": "560895",
+      "kickoffUtc": "2027-05-15T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "351",
+        "name": "Nottingham Forest FC",
+        "shortName": "Nottingham",
+        "crestUrl": "https://crests.football-data.org/351.png"
+      }
+    },
+    {
+      "id": "560910",
+      "kickoffUtc": "2027-05-23T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "62",
+        "name": "Everton FC",
+        "shortName": "Everton",
+        "crestUrl": "https://crests.football-data.org/62.png"
+      },
+      "awayTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      }
+    },
+    {
+      "id": "560913",
+      "kickoffUtc": "2027-05-30T12:00:00Z",
+      "status": "SCHEDULED",
+      "competition": {
+        "id": "2021",
+        "name": "Premier League"
+      },
+      "homeTeam": {
+        "id": "57",
+        "name": "Arsenal FC",
+        "shortName": "Arsenal",
+        "crestUrl": "https://crests.football-data.org/57.png"
+      },
+      "awayTeam": {
+        "id": "397",
+        "name": "Brighton & Hove Albion FC",
+        "shortName": "Brighton Hove",
+        "crestUrl": "https://crests.football-data.org/397.png"
+      }
+    }
+  ]
+}

@@ -4,9 +4,13 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { MatchCard } from "@/components/MatchCard";
 import { selectNextFiveFixtures, selectNextFixture } from "@/lib/fixtures";
-import type { Fixture } from "@/types/fixture";
+import type { Fixture, FixtureData } from "@/types/fixture";
 
-const fixtures = fixturesJson as Fixture[];
+function getFixtures(data: Fixture[] | FixtureData): Fixture[] {
+  return Array.isArray(data) ? data : data.fixtures;
+}
+
+const fixtures = getFixtures(fixturesJson as Fixture[] | FixtureData);
 
 export default function Home() {
   const nextFixture = selectNextFixture(fixtures);
