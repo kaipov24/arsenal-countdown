@@ -1,7 +1,9 @@
 import type { Metadata, Viewport } from "next";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "When Is Arsenal Playing Next?",
   description:
     "See Arsenal's next match, local kickoff time, live countdown, competition, venue, and upcoming fixtures.",
