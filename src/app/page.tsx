@@ -3,7 +3,11 @@ import { FixtureList } from "@/components/FixtureList";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { MatchCard } from "@/components/MatchCard";
-import { selectNextFiveFixtures, selectNextFixture } from "@/lib/fixtures";
+import {
+  filterFutureFixtures,
+  selectNextFixture,
+  sortFixturesByKickoff,
+} from "@/lib/fixtures";
 import type { Fixture, FixtureData } from "@/types/fixture";
 
 function getFixtures(data: Fixture[] | FixtureData): Fixture[] {
@@ -13,10 +17,13 @@ function getFixtures(data: Fixture[] | FixtureData): Fixture[] {
 const fixtures = getFixtures(fixturesJson as Fixture[] | FixtureData);
 
 export default function Home() {
-  const nextFixture = selectNextFixture(fixtures);
+  const now = new Date();
+  const nextFixture = selectNextFixture(fixtures, now);
   const followingFixtures = nextFixture
-    ? selectNextFiveFixtures(
-        fixtures.filter((fixture) => fixture.id !== nextFixture.id),
+    ? sortFixturesByKickoff(
+        filterFutureFixtures(fixtures, now).filter(
+          (fixture) => fixture.id !== nextFixture.id,
+        ),
       )
     : [];
 
@@ -58,7 +65,7 @@ export default function Home() {
                   Upcoming
                 </p>
                 <h2 className="mt-2 text-3xl font-bold text-white">
-                  Following five fixtures
+                  Upcoming fixtures
                 </h2>
               </div>
             </div>
