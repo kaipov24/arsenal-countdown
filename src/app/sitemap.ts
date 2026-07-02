@@ -1,12 +1,11 @@
 import type { MetadataRoute } from "next";
-import { SITE_URL } from "@/lib/site";
-
-export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = "https://kaipov24.github.io/arsenal-countdown";
+
   return [
     {
-      url: SITE_URL,
+      url: `${baseUrl}/`,
       lastModified: new Date(),
       changeFrequency: "daily",
       priority: 1,
